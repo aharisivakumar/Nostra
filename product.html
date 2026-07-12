@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Nostra | Products</title>
+</head>
+<body>
+    <nav class="bg-violet-200 p-4 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="size-6 md:hidden">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+
+        <h1 class="font-bold text-3xl p-2">Nostra | Products</h1>
+        
+        <div>
+            <ul class="flex gap-5 text-gray-600 hidden md:flex">
+              <li>
+                <a class="hover:underline hover:text-black font-bold" href="index.html">Home</a>
+              </li>
+              <li>
+                <a class="hover:underline hover:text-black font-bold" href="product.html">Products</a>
+              </li>
+              <li>
+                <a class="hover:underline hover:text-black font-bold" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+    <section id="sidenav" class="bg-violet-200 fixed z-20 top-0 trasition-all duration-1000 left-0" style="width: 40%; height:100vh; left: -50%;">
+        <div class="text-right p-5">
+          <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class="flex flex-col gap-5 text-gray-600">
+          <li>
+            <a class="hover:underline hover:text-black" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="hover:underline hover:text-black" href="product.html">Products</a>
+          </li>
+          <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </section>
+    <section class="text-center">
+            <h1 class="text-center text-2xl font-bold mt-5">Our Products</h1>
+            <input id="search" class="border border-black p-2 m-3 rounded" style="width: 80%;" type="text" placeholder="search Your Options">
+            <button class="bg-green-600 text-white hover:bg-red-600 p-2 m-3 rounded">Search</button>
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 p-3 mt-5 gap-10">
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/img-1.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class=" font-bold">Jeans</p>
+                <p class="font-bold">$40</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/img-2.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">T shirt</p>
+                <p class="font-bold">$25</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/img-3.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Shirt</p>
+                <p class="font-bold">$30</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/img-4.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Court</p>
+                <p class="font-bold">$60</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/img-5.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Premium Shirt</p>
+                <p class="font-bold">$55</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/nav.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Women's</p>
+                <p class="font-bold">$45</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/wallet.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Wallet</p>
+                <p class="font-bold">$10</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+            <div class="border-black shadow-2xl p-2 rounded">
+                <img src="./images/watch.jpg" alt="" class="w-64 h-64 inline hover:shadow-xl transform hover:-translate-y-2">
+                <p class="font-bold">Watch</p>
+                <p class="font-bold">$20</p>
+                <button class=" bg-red-600 border-black p-2 m-1 hover:bg-green-600 rounded items-center">Add To Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-violet-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Nostra</h1>
+        <p>The Standard Chunk of Lorem ipsum used since the 1500s is reprodused below for those intrest</p>
+        <p>@ Nostra.com</p>
+      </section>
+
+    <script src="product.js"></script>
+</body>
+</html>
