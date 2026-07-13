@@ -4,7 +4,7 @@
 
 Nostra is a responsive e-commerce website developed using **HTML**, **Tailwind CSS**, and **JavaScript**. The project provides a modern shopping interface with a responsive navigation bar, product filtering, live search, and multiple pages for a complete user experience.
 
-## 🚀 Features
+##  Features
 
 * Responsive Home Page
 * Products Page
@@ -41,13 +41,11 @@ This project helped me learn:
 2. Open the project folder.
 3. Open `index.html` in your web browser.
 4. Explore the Home, Products, and Contact pages.
-
+live link[https://aharisivakumar.github.io/Nostra/]
 
 ## 👨‍💻 Author
 
 **Sivakumar**
-
-GitHub: https://github.com/aharisivakumar
 
 ---
 
